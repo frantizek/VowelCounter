@@ -1,13 +1,4 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -82,8 +73,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/frantizek/VowelCounter)
 
+
+<!-- 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `frantizek`, `VowelCounter`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -101,11 +94,11 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED --
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -135,22 +128,22 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
-<!-- USAGE EXAMPLES -->
+<!-- USAGE EXAMPLES --
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP --
 ## Roadmap
 
 - [ ] Feature 1
@@ -160,7 +153,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/frantizek/VowelCounter/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
@@ -182,19 +175,17 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
+<!-- LICENSE --
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/frantizek/VowelCounter](https://github.com/frantizek/VowelCounter)
 
@@ -202,14 +193,14 @@ Project Link: [https://github.com/frantizek/VowelCounter](https://github.com/fra
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS --
 ## Acknowledgments
 
 * []()
 * []()
 * []()
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p-->
 
 
 
@@ -226,5 +217,5 @@ Project Link: [https://github.com/frantizek/VowelCounter](https://github.com/fra
 [license-shield]: https://img.shields.io/github/license/frantizek/VowelCounter.svg?style=for-the-badge
 [license-url]: https://github.com/frantizek/VowelCounter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/fruvalc
 [product-screenshot]: images/screenshot.png
