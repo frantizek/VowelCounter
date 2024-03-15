@@ -1,13 +1,31 @@
-from tkinter import *
+import customtkinter
 
-root = Tk()
-root.geometry("600x500")
+customtkinter.set_appearance_mode("Light")  # Modes: "System" (standard), "Dark", "Light"
+customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
+
+
+root = customtkinter.CTk()
+root.geometry("600x700")
 root.title("Cuenta Vocales")
+
+frame = customtkinter.CTkFrame(master=root)
+frame.pack(pady=20, padx=60, fill="both", expand=True)
+
+
+l2 = customtkinter.CTkLabel(master=frame, text="\nEscribe una frase o texto: \n",
+                            font=customtkinter.CTkFont(size=16, weight="normal"))
+l2.pack(padx=20, pady=10)
+
+inputtxt = customtkinter.CTkTextbox(master=frame, width=400, corner_radius=0, bg_color="white")
+inputtxt.pack(padx=20, pady=10)
+
+outputtxt = customtkinter.CTkTextbox(master=frame, width=400, corner_radius=0, bg_color="gray")
+outputtxt.pack(padx=20, pady=10)
 
 
 def VowelCounter():
-    Output.delete('1.0', END)
-    CountVowels = str(inputtxt.get("1.0", "end-1c"))
+    outputtxt.delete('0.0', "end")
+    CountVowels = str(inputtxt.get("0.0", "end"))
     d_vowels = {"a": 0,  "e": 0, "i": 0, "o": 0, "u": 0}
 
     for letter in CountVowels:
@@ -29,26 +47,10 @@ def VowelCounter():
     for key, value in d_vowels.items():
         TerribleLongAnswer = TerribleLongAnswer + "\nLa vocal '{}' aparece {} veces.".format(key, value)
 
-    Output.insert(END, TerribleLongAnswer)
+    outputtxt.insert("0.0", TerribleLongAnswer)
 
 
-l = Label(text="\nEscribe una frase o texto: \n")
-inputtxt = Text(root, height=10,
-                width=60,
-                bg="light yellow")
+display = customtkinter.CTkButton(master=frame, text="Cuenta las vocales.", height=2, width=20, command=lambda: VowelCounter())
+display.pack(padx=20, pady=10)
 
-Output = Text(root, height=10,
-              width=50,
-              bg="white")
-
-Display = Button(root, height=2,
-                 width=20,
-                 text="Cuenta las vocales",
-                 command=lambda: VowelCounter())
-
-l.pack()
-inputtxt.pack()
-Display.pack()
-Output.pack()
-
-mainloop()
+root.mainloop()
